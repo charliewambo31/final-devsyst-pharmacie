@@ -1,6 +1,6 @@
 const selectElement1 = document.querySelector('.choix');
 selectElement1.addEventListener('change', (event) => {
-var result1 = document.querySelector('.boisson');
+var result1 = document.querySelector('.produit');
   result1.textContent = `Votre choix est : ${event.target.value}`;
 });
 
@@ -12,7 +12,7 @@ bouton1.addEventListener('click', () => {
   } else if  (choix < 0.3) {
     alert('vous avez gagne 100$');
   } else if  (choix < 0.6) {
-    alert('vous avez gagne un autre cafe');
+    alert('vous avez gagne un produit de votre choix');
   } else {
     alert('vous avez perdu');
   }
