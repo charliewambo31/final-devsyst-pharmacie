@@ -1,2 +1,2 @@
 # final-devsyst-pharmacie
-## autre application du projet 1 .
+## Execution du projet sur visual studio code .
